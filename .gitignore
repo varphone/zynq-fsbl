@@ -1,0 +1,6 @@
+# Auto generated files
+*.a
+*.d
+*.o
+executable.elf
+!board/**/src/librsa.a
