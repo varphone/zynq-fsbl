@@ -5,7 +5,7 @@
 * Version: 
 * DO NOT EDIT.
 *
-* Copyright (C) 2010-2020 Xilinx, Inc. All Rights Reserved.
+* Copyright (C) 2010-2021 Xilinx, Inc. All Rights Reserved.
 * SPDX-License-Identifier: MIT 
 
 * 
@@ -32,6 +32,17 @@ XSdPs_Config XSdPs_ConfigTable[XPAR_XSDPS_NUM_INSTANCES] =
 		XPAR_PS7_SD_0_MIO_BANK,
 		XPAR_PS7_SD_0_HAS_EMIO,
 		XPAR_PS7_SD_0_IS_CACHE_COHERENT
+	},
+	{
+		XPAR_PS7_SD_1_DEVICE_ID,
+		XPAR_PS7_SD_1_BASEADDR,
+		XPAR_PS7_SD_1_SDIO_CLK_FREQ_HZ,
+		XPAR_PS7_SD_1_HAS_CD,
+		XPAR_PS7_SD_1_HAS_WP,
+		XPAR_PS7_SD_1_BUS_WIDTH,
+		XPAR_PS7_SD_1_MIO_BANK,
+		XPAR_PS7_SD_1_HAS_EMIO,
+		XPAR_PS7_SD_1_IS_CACHE_COHERENT
 	}
 };
 

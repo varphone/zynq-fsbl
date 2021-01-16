@@ -5,7 +5,7 @@
 * Version: 
 * DO NOT EDIT.
 *
-* Copyright (C) 2010-2020 Xilinx, Inc. All Rights Reserved.
+* Copyright (C) 2010-2021 Xilinx, Inc. All Rights Reserved.
 * SPDX-License-Identifier: MIT 
 
 * 
@@ -23,10 +23,10 @@
 XIic_Config XIic_ConfigTable[XPAR_XIIC_NUM_INSTANCES] =
 {
 	{
-		XPAR_AXI_IIC_0_DEVICE_ID,
-		XPAR_AXI_IIC_0_BASEADDR,
-		XPAR_AXI_IIC_0_TEN_BIT_ADR,
-		XPAR_AXI_IIC_0_GPO_WIDTH
+		XPAR_AXI_IIC_SENSOR_DEVICE_ID,
+		XPAR_AXI_IIC_SENSOR_BASEADDR,
+		XPAR_AXI_IIC_SENSOR_TEN_BIT_ADR,
+		XPAR_AXI_IIC_SENSOR_GPO_WIDTH
 	}
 };
 
