@@ -5,13 +5,13 @@
 #define XPAR_CPU_ID 0U
 
 /* Definitions for peripheral PS7_CORTEXA9_0 */
-#define XPAR_PS7_CORTEXA9_0_CPU_CLK_FREQ_HZ 1066666656
+#define XPAR_PS7_CORTEXA9_0_CPU_CLK_FREQ_HZ 766666659
 
 
 /******************************************************************/
 
 /* Canonical definitions for peripheral PS7_CORTEXA9_0 */
-#define XPAR_CPU_CORTEXA9_0_CPU_CLK_FREQ_HZ 1066666656
+#define XPAR_CPU_CORTEXA9_0_CPU_CLK_FREQ_HZ 766666659
 
 
 /******************************************************************/
@@ -124,6 +124,16 @@
 
 
 /******************************************************************/
+
+
+/* Definitions for peripheral GAUSS_FILTER_0 */
+#define XPAR_GAUSS_FILTER_0_S00_AXI_BASEADDR 0x43C30000
+#define XPAR_GAUSS_FILTER_0_S00_AXI_HIGHADDR 0x43C3FFFF
+
+
+/* Definitions for peripheral JPEG_0 */
+#define XPAR_JPEG_0_S00_AXI_BASEADDR 0x43C40000
+#define XPAR_JPEG_0_S00_AXI_HIGHADDR 0x43C4FFFF
 
 
 /* Definitions for peripheral LASER_CTRL_0 */
